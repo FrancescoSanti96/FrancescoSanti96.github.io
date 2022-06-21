@@ -1,6 +1,7 @@
 
 // import { CameraIcon, PencilIcon, StarIcon } from "@heroicons/react/solid";
 import { useNavigate } from "react-router-dom";
+import Footer from "../../components/footer";
 
 import image from "../../img/me.jpg"
 
@@ -22,19 +23,7 @@ export default function Home() {
      Become a software developer is my dream and now it's time to take my dream to reality.🚀️ <br></br>
     </div>
 </div>
-
-{/* footer */}
-<ul className="nav position-absolute bottom-0 start-50 translate-middle-x">
-<li className="nav-item">
-    <a className="nav-link" href="#"><i className="bi bi-github icon"></i></a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="#"><i className="bi bi-linkedin icon"></i></a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="#"><i className="bi bi-file-earmark-person icon"></i></a>
-  </li>
-</ul>
+<Footer/>
     </>
   );
 }

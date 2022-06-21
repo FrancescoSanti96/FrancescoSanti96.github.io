@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 function Navbar() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* navbar */}
@@ -22,20 +26,22 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link"
+                onClick={() => navigate("/home")}
+                 >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" onClick={() => navigate("/experience")}>
                   Experience
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Project</a>
+                <a className="nav-link" onClick={() => navigate("/projects")}>Projects</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">AboutMe</a>
+                <a className="nav-link" onClick={() => navigate("/aboutme")}>AboutMe</a>
               </li>
             </ul>
             <i className="bi bi-code-slash"></i>
