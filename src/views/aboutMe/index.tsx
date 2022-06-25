@@ -5,28 +5,28 @@ import meAndMaggie from "../../img/meAndMaggie.jpg";
 export default function AboutMe() {
     return (
         <>
-            <div className="container">
-                <div id="carouselExampleInterval" className="carousel slide carousel-fade mt-2 border border-3" data-bs-ride="carousel" style={{ width: 'fit-content', maxHeight: 400, margin: 'auto' }}>
+            <div className="container"> 
+                <div id="carouselExampleInterval" className="carousel slide carousel-fade mt-2 border border-3" data-bs-ride="carousel" style={{width: '80%', margin: 'auto' }}>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="10000">
                             <img src={imageMaggie}
                                 className="d-block"
                                 alt="..."
-                                style={{ maxHeight: 400 }}
+                                style={{ maxHeight: 450 ,  width: '100%', objectFit: 'cover'}}
                                 />
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
                             <img src={imageMaggieOcchiali}
                                 className="d-block"
                                 alt="..."
-                                style={{ maxHeight: 400 }}
+                                style={{ maxHeight: 450, width: '100%', objectFit: 'cover' }}
                                 />
                         </div>
                         <div className="carousel-item">
                             <img src={meAndMaggie }
                                 className="d-block"
                                 alt="..."
-                                style={{ maxHeight: 400 }}
+                                style={{ maxHeight: 450, width: '100%', objectFit: 'cover' }}
                                 />
                         </div>
                     </div>
