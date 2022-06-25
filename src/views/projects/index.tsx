@@ -1,7 +1,7 @@
-// import { CameraIcon, PencilIcon, StarIcon } from "@heroicons/react/solid";
 import { useNavigate } from "react-router-dom";
 import { ProjectCardComponent } from "../../components/projectCard";
-import image from "../../img/me.jpg";
+import imageAliment from "../../img/alimenti.gif";
+import imageMoney from "../../img/money.gif";
 
 export default function Projects() {
   const navigate = useNavigate();
@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div>
       <ProjectCardComponent
-        image={image}
+        image={imageAliment}
         imageAlt="food project"
         title="Gestione alimenti"
         text="Questo progetto nasce per noi amanti del cibo ed è semplice gestore dei nostri alimenti.
@@ -18,17 +18,17 @@ export default function Projects() {
 
                 Sviluppato per l'esame finale del modulo di Laravel-PHP in cui si doveva creare un CRUD."
         info=" Strumenti: Laravel-PHP, Mysqsl"
-        link=""
+        link="https://github.com/FrancescoSanti96/ITS-2-esame_santi"
       />
 
 <ProjectCardComponent
-        image={image}
+        image={imageMoney}
         imageAlt="money project"
         title="Cake Money"
         text="Questo progetto nasce per la gestione del denaro.
-                Sviluppato in team per l'esame finale del modulo di Flutter-Dart in cui si doveva creare un applicazione."
+                Sviluppato in team da 5 persone per l'esame finale del modulo di Flutter-Dart in cui si doveva creare un applicazione."
         info=" Strumenti: Flutter- Dart"
-        link=""
+        link="https://github.com/FrancescoSanti96/CakeMoney"
       />
     </div>
   );

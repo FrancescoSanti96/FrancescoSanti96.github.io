@@ -7,6 +7,8 @@ import {
 import Home from "../../views/home";
 import Projects from "../../views/projects";
 import Navbar from "../../components/navbar";
+import Experience from "../../views/experience";
+import AboutMe from "../../views/aboutMe";
 
 export default function RouterApp() {
   return (
@@ -16,8 +18,8 @@ export default function RouterApp() {
         <Route path="*" element={<Navigate to="/home" />} />
         <Route path="home" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        {/* <Route path="manualy" element={<Experiences />} /> */}
-        {/* <Route path="prizes" element={<AboutMe />} /> */}
+        <Route path="experience" element={<Experience />} />
+        <Route path="aboutme" element={<AboutMe />} />
       </Routes>
     </Router>
   );

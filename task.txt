@@ -1,0 +1,6 @@
+
+Future implementazioni:
+-Animazioni
+-Dark mode
+-Multilingua
+-Roadmap

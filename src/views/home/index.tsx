@@ -1,5 +1,3 @@
-
-// import { CameraIcon, PencilIcon, StarIcon } from "@heroicons/react/solid";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../components/footer";
 
@@ -17,10 +15,10 @@ export default function Home() {
     <div className="px-5">
       <img className="imageOfMe" src={image} alt=""/>
     </div>
-    <div className="px-5 textProfile mt-5 mt-md-0">
-     Hello, my name is Francesco Santi  and I'm a future Dev 👨‍💻️ <br></br>
-     This is my personal website made for fun made with react and love 🤟️<br></br>
-     Become a software developer is my dream and now it's time to take my dream to reality.🚀️ <br></br>
+    <div className="px-5 textProfile mt-5 mt-md-0 fw-bold">
+     Hello, my name is Francesco Santi  and I'm a future Dev 👨‍💻️ <br/>
+     This is my personal website made for fun made with react and love 🤟️ <br/>
+     Become a software developer is my dream and now it's time to take my dream to reality.🚀️ <br/>
     </div>
 </div>
 <Footer/>
