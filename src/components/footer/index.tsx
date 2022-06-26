@@ -1,3 +1,5 @@
+import curriculum from "../../documents/test.pdf";
+
 function Footer() {
   return (
     <>
@@ -13,7 +15,7 @@ function Footer() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href={curriculum}>
             <i className="bi bi-file-earmark-person icon"></i>
           </a>
         </li>

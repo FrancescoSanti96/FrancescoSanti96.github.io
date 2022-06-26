@@ -6,6 +6,7 @@ export default function AboutMe() {
     return (
         <>
             <div className="container"> 
+            {/* carousel */}
                 <div id="carouselExampleInterval" className="carousel slide carousel-fade mt-2 border border-3" data-bs-ride="carousel" style={{width: '80%', margin: 'auto' }}>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="10000">
@@ -39,6 +40,25 @@ export default function AboutMe() {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
+
+            {/* other */}
+         
+  <button className="btn btn-secondary d-block m-auto mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    Other thinghs that i love: 🔍️
+  </button>
+
+<div style={{ minHeight: 120 }}>
+  <div className="collapse" id="collapseWidthExample">
+    <div className="card card-body m-auto" style={{ width: 300 }}>
+    <ul className="list-group">
+      <li className="list-group-item">Camping 🏕️</li>
+      <li className="list-group-item">Montains⛰️</li>
+      <li className="list-group-item">Look for Porcini 🍄️</li>
+      <li className="list-group-item">Sport 💪️</li>
+  </ul>
+    </div>
+  </div>
+</div>
             </div>
         </>
     );
