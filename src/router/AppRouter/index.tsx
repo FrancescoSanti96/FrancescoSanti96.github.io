@@ -13,7 +13,8 @@ import AboutMe from "../../views/aboutMe";
 export default function RouterApp() {
   return (
     <Router>
-       <Navbar/>
+      {/* Use component navbar in all the route */}
+      <Navbar/>
       <Routes>
         <Route path="*" element={<Navigate to="/home" />} />
         <Route path="home" element={<Home />} />

@@ -5,8 +5,11 @@ export default function Experience() {
     <>
       <ExperienceCardComponent
         title="Study : Fitstic 2020 - 2022"
-        text="Tecnico superiore per lo sviluppo web e cloud, Il corso è a
-                numero chiuso, sono 2000 ore (di cui 800 di stage)."
+        text="ITS for web and cloud development, the course is a
+        limited number, they are 2000 hours (of which 800 of internships)."
+        // Italiano
+        // text="Tecnico superiore per lo sviluppo web e cloud, Il corso è a
+        //         numero chiuso, sono 2000 ore (di cui 800 di stage)."
         link="https://www.fitstic.it/it/b/4838/tecnicosuperioreperlosvilupposoftwarewebecloud"
       />
       <ExperienceCardComponent
@@ -23,7 +26,9 @@ export default function Experience() {
       />
       <ExperienceCardComponent
         title="Job : Tosti 2017 - 2020"
-        text="Tecnico Informatico"
+        text="IT Technician"
+        // Italiano
+        // text="Tecnico Informatico"
         link="https://www.tostisrl.it/en/"
       />
     </>

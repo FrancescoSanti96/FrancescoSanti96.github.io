@@ -1,3 +1,4 @@
+// The component used in the view project to create a card of a coding project.
 interface ProjectCardComponentProps {
   readonly image: string;
   readonly imageAlt: string;
@@ -12,7 +13,7 @@ export const ProjectCardComponent: React.FunctionComponent<ProjectCardComponentP
 
     return (
       <div className="container">
-      <div className="m-auto card mb-3 mt-3" style={{ maxHeight: 400 }}>
+      <div className="m-auto card mb-3 mt-3">
           <div className="row g-0">
             <div className="col-md-6">
               <img src={image} className="img-fluid rounded-start d-block m-auto" alt={imageAlt} style={{ maxHeight: 400 }}/>

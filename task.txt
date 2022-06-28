@@ -1,17 +1,18 @@
 Todo:
-1- curriculum
+v 1- curriculum
 https://www.npmjs.com/package/@types/react-pdf
 https://github.com/wojtekmaj/react-pdf
-2- inglese
-3- check responsive 
-4- save other porfolio angular
-5- publish portfolio
+v 2- inglese
+v 3- check responsive 
+4- inserire commenti
+5 - save other porfolio angular
+6 - publish portfolio
 
 BUG:
-home on mobile when openh navbar, icons are not in the correct position
 
 Future implementazioni:
 -Animazioni
 -Dark mode
 -Multilingua
 -Roadmap
+-Pdf reader nella pagina

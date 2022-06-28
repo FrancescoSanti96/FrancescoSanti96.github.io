@@ -1,3 +1,4 @@
+// The coomponent used in the view experience to create a card of a specific experience like job or study
 interface ExperienceCardProps {
   readonly title: string;
   readonly text: string;
