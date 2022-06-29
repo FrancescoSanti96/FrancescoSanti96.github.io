@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/test.41778caa.pdf"
   },
   {
-    "revision": "a6a4862c8f0a585c6c1f6d5aa07b761c",
-    "url": "/static/media/bootstrap-icons.a6a4862c.woff"
-  },
-  {
     "revision": "b57a58905370284f1499d1a35f5d2c96",
     "url": "/static/media/bootstrap-icons.b57a5890.woff2"
+  },
+  {
+    "revision": "a6a4862c8f0a585c6c1f6d5aa07b761c",
+    "url": "/static/media/bootstrap-icons.a6a4862c.woff"
   },
   {
     "revision": "2dd0170325043be77c72e09c1e943816",
