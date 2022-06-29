@@ -1,3 +1,4 @@
+import React from 'react';
 // The component used in the view project to create a card of a coding project.
 interface ProjectCardComponentProps {
   readonly image: string;

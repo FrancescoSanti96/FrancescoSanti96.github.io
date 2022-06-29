@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar";
+import React from 'react';
 import RouterApp from "./router/AppRouter";
 
 function App() {  

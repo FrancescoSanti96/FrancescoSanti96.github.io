@@ -1,3 +1,4 @@
+import React from 'react';
 // The component used in all the views is called on the router 
 
 import { useNavigate } from "react-router-dom";

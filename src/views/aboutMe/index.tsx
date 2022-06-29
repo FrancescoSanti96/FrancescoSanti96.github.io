@@ -1,3 +1,4 @@
+import React from 'react';
 import imageMaggie1 from "../../img/maggie.jpg";
 import imageMaggie2 from "../../img/maggieOcchiali.jpg";
 import meAndMaggie from "../../img/meAndMaggie.jpg";

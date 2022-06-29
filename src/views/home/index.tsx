@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 import Footer from "../../components/footer";
 
 import image from "../../img/me.jpg";

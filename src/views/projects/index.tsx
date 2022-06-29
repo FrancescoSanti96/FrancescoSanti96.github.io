@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 import { ProjectCardComponent } from "../../components/projectCard";
 import imageAliment from "../../img/alimenti.gif";
 import imageMoney from "../../img/money.gif";

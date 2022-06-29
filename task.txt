@@ -9,10 +9,18 @@ v 3- check responsive
 6 - publish portfolio
 
 BUG:
+- mobile non va slider
 
 Future implementazioni:
+-Loader per animazioni di caricamento tipo slider ecc...
+-Animazioni di colore tipo hover e focus
 -Animazioni
 -Dark mode
 -Multilingua
 -Roadmap
 -Pdf reader nella pagina
+
+Tutorial:
+deploy react app su github pages
+https://github.com/gitname/react-gh-pages
+https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f

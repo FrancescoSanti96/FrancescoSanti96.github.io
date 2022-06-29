@@ -1,3 +1,4 @@
+import React from 'react';
 import ExperienceCardComponent from "../../components/experienceCard";
 
 export default function Experience() {
