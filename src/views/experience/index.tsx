@@ -4,6 +4,11 @@ import ExperienceCardComponent from "../../components/experienceCard";
 export default function Experience() {
   return (
     <>
+    <ExperienceCardComponent
+        title="Job : Flowing a Claranet company 9/2022 - In progress"
+        text="Junior software developer"
+        link="https://www.flowing.it/"
+      />
       <ExperienceCardComponent
         title="Study : Fitstic 2020 - 2022"
         text="ITS for web and cloud development, the course is a

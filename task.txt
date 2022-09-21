@@ -4,9 +4,9 @@ https://www.npmjs.com/package/@types/react-pdf
 https://github.com/wojtekmaj/react-pdf
 v 2- inglese
 v 3- check responsive 
-4- inserire commenti
-5 - save other porfolio angular
-6 - publish portfolio
+v 4- inserire commenti
+v 5 - save other porfolio angular
+v 6 - publish portfolio
 
 BUG:
 - mobile non va slider

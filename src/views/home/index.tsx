@@ -13,11 +13,10 @@ export default function Home() {
           <img className="imageOfMe" src={image} alt="" />
         </div>
         <div className="px-5 textProfile mt-5 mt-md-0 fw-bold">
-          Hello, my name is Francesco Santi and I'm a future Dev. 👨‍💻️ <br />
-          This is my personal website made for fun made with react and love. 🤟️{" "}
-          <br />
-          Become a software developer is my dream and now it's time to take my
-          dream to reality.🚀️ <br />
+          Hello everyone 👋🏻. <br />
+          I'm Francesco Santi 🦸🏻‍♂️ a Junior Developer at Flowing a Claranet Company.<br />
+          This is my personal website made for fun made with react and love. 🤟️ <br />
+          🚀️ 
         </div>
       </div>
       <Footer />

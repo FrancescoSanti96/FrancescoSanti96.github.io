@@ -17,8 +17,8 @@ export default function RouterApp() {
       {/* Use component navbar in all the route */}
       <Navbar/>
       <Routes>
-        <Route path="*" element={<Navigate to="/home" />} />
-        <Route path="home" element={<Home />} />
+        <Route path="*" element={<Navigate to="" />} />
+        <Route path="" element={<Home />} />
         <Route path="projects" element={<Projects />} />
         <Route path="experience" element={<Experience />} />
         <Route path="aboutme" element={<AboutMe />} />
