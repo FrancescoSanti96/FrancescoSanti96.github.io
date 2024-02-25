@@ -1,7 +1,7 @@
 import React from 'react';
-import imageMaggie1 from "../../img/maggie.jpg";
-import imageMaggie2 from "../../img/maggieOcchiali.jpg";
-import meAndMaggie from "../../img/meAndMaggie.jpg";
+import imageMaggie1 from "../../assets/img/maggie.jpg";
+import imageMaggie2 from "../../assets/img/maggieOcchiali.jpg";
+import meAndMaggie from "../../assets/img/meAndMaggie.jpg";
 
 export default function AboutMe() {
   return (

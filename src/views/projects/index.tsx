@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProjectCardComponent } from "../../components/projectCard";
-import imageAliment from "../../img/alimenti.gif";
-import imageMoney from "../../img/money.gif";
+import imageAliment from "../../assets/img/alimenti.gif";
+import imageMoney from "../../assets/img/money.gif";
 
 export default function Projects() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 // Component used in the view home for render 3 icons on the bottom of the page like a footer
 
 // For import pdf in react with typescript is necessary install 'npm i @types/react-pdf' a specific types and declare a custom types on a specific file in this case react-app-env.d.ts
-import curriculum from "../../documents/test.pdf";
+import curriculum from "../../assets/documents/curriculum.pdf";
 
 function Footer() {
   return (

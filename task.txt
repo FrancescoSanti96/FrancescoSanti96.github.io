@@ -32,3 +32,5 @@ _ Readme
 - Dark moode
 - Add new project
 - Change info
+- Remove bootstrap
+- Errore relaod page

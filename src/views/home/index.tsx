@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from "../../components/footer";
 
-import image from "../../img/me.jpg";
+import image from "../../assets/img/me.jpg";
 
 export default function Home() {
   return (
