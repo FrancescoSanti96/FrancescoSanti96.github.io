@@ -24,3 +24,11 @@ Tutorial:
 deploy react app su github pages
 https://github.com/gitname/react-gh-pages
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
+
+New Feature 2024:
+- Refactoring
+_ Readme
+- Dark moode
+- Add new project
+- Change info
